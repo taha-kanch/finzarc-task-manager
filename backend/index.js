@@ -19,6 +19,6 @@ app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
 
 app.listen(PORT, (err) => {
-if(err) return console.log(`Error: ${err}`);
-console.log(`Server is running on PORT ${PORT}`);
+    if (err) return console.log(`Error: ${err}`);
+    console.log(`Server is running on PORT ${PORT}`);
 });
